@@ -1,14 +1,7 @@
-import SignIn from "./Components/SignIn"
-
-function App() {
-
+export default function App() {
   return (
-    <>
-      <SignIn />
-
-    {/* <h1 className="text-center text-6xl font-bold">Tolipov</h1> */}
-    </>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
   )
 }
-
-export default App
